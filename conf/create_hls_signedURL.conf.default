@@ -1,0 +1,17 @@
+[AWS]
+
+
+[CloudFront]
+cf_key_pair_id = 
+cf_private_key_file = ./key/XXXXXX.pem
+cf_dir_path = https://XXXXXXXX.cloudfront.net/hls/
+cf_duration = 100
+
+[S3]
+s3_bucket = XXXXXXXX
+s3_file_key = hls/XXXXXXXX.m3u8
+
+
+[HLS]
+manifest_url = http://XXXXXXXX
+manifest_file_name = signed_playlist.m3u8
