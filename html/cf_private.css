@@ -1,0 +1,39 @@
+body {
+ margin: 50px 100px;
+}
+
+#header {
+ font-size: 28pt;
+ font-family: 'Georgia','Arial';
+ font-weight: bold;
+ color: #ff9900;
+}
+
+#list {
+ font-size: 12pt;
+ font-family: 'Arial';
+ color: #808080;
+}
+
+#cntrl {
+ font-size: 12pt;
+ font-family: 'Arial';
+ font-weight: bold;
+}
+
+input {
+ font-size: 15pt;
+ font-family: 'Estrangelo Edessa','Arial';
+ font-weight: bold;
+ color: #FF3333;
+ border: none;
+}
+
+textarea {
+ font-size: 15pt;
+ font-family: 'Estrangelo Edessa','Arial';
+ font-weight: bold;
+ border: none;
+ color: #6699FF;
+ *.border: 0; 
+}

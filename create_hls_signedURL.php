@@ -35,7 +35,7 @@
 	//$manifest_file_name = "signed_playlist.m3u8"; 
 	$manifest_file_name = $init_array['HLS']['manifest_file_name']; 
 	//$manifest_url="http://www.aws-jp.info/aws/aws_php/".$manifest_file_name;
-	$manifest_url = $init_array['HLS']['manifest_url']; 
+	$manifest_url = $init_array['HLS']['manifest_url'].$manifest_file_name; 
 
 
 	//---------------------------------------------------------
@@ -71,9 +71,9 @@
 	fclose($fh);
 
 	// Demonstration Manifest file TEXT
-	$fh1 = fopen($manifest_file_name.".txt","w");
-	fwrite($fh1, $manifest);
-	fclose($fh1);
+	//$fh1 = fopen($manifest_file_name.".txt","w");
+	//fwrite($fh1, $manifest);
+	//fclose($fh1);
 
 	//Return SignedURL Manifest file URL
 	print $manifest_url;	
