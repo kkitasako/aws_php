@@ -22,19 +22,13 @@
 	//---------------------------------------------------------
 	$s3_bucket = "$_POST[bucketname]";
 	$s3_file_key = "$_POST[m3u8file]";
-	//$cf_dir_path = "https://d1bwjl0ormyoox.cloudfront.net/hls/";
 	$cf_dir_path = $init_array['CloudFront']['cf_dir_path'];
-
-	//$cf_key_pair_id = "APKAIZ4RI4PUMO3SNKLQ";
 	$cf_key_pair_id = $init_array['CloudFront']['cf_key_pair_id'];
-	//$cf_private_key_file = "pk-APKAIZ4RI4PUMO3SNKLQ.pem";
 	$cf_private_key_file = $init_array['CloudFront']['cf_private_key_file'];
 	$cf_duration = "$_POST[duration]";
 	$cf_expires = time() + $cf_duration;
 
-	//$manifest_file_name = "signed_playlist.m3u8"; 
 	$manifest_file_name = $init_array['HLS']['manifest_file_name']; 
-	//$manifest_url="http://www.aws-jp.info/aws/aws_php/".$manifest_file_name;
 	$manifest_url = $init_array['HLS']['manifest_url'].$manifest_file_name; 
 
 
