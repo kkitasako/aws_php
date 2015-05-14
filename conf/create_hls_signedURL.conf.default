@@ -15,3 +15,5 @@ s3_file_key = hls/XXXXXXXX.m3u8
 [HLS]
 manifest_url = http://XXXXXXXX
 manifest_file_name = signed_playlist.m3u8
+aes_manifest_file_name = aes_signed_playlist.m3u8
+

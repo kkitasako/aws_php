@@ -1,0 +1,11 @@
+[AWS]
+
+
+[CloudFront]
+cf_domain = xxx.com
+cf_cname = http://xxx..com
+cf_path = /
+cf_key_pair_id = xxxxxxxxxxx
+cf_private_key_file = ./key/pk-xxxxxxxxxxx.pem
+cf_duration = 100
+
